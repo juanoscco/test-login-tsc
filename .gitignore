@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Dist and Build folders
+dist/
+build/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+._*
+
+# Logs
+logs
+*.log
+logs/*
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Debugging
+.vscode/*
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+.Trashes
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+._*
+.DocumentRevisions-V100
+.FBCIndex
+.TemporaryItems
+.apdisk
+
+# Ignore npm global packages directory
+lib-cov/
+coverage/
